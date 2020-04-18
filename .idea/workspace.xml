@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f63a32ae-1e05-429c-a609-ed71f74584b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YTR19xn2iMv2F9WIAWS9E8RgF5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RunManager" selected="Python.draw_PRC">
+    <configuration name="分离正负样本" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分离正负样本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_AUC (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_AUC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_PRC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_PRC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_T-SNE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_T-SNE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_T-SNE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="H:\PyCharm_Projects\DataProcessing\draw_T-SNE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="juzheng" type="PythonConfigurationType" factoryName="Python">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\anaconda\envs\hw\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataProcessing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.juzheng" />
+      <item itemvalue="Python.draw_AUC (1)" />
+      <item itemvalue="Python.main1" />
+      <item itemvalue="Python.draw_PRC" />
+      <item itemvalue="Python.draw_T-SNE" />
+      <item itemvalue="Python.分离正负样本" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.draw_PRC" />
+        <item itemvalue="Python.draw_AUC (1)" />
+        <item itemvalue="Python.分离正负样本" />
+        <item itemvalue="Python.draw_T-SNE" />
+        <item itemvalue="Python.draw_T-SNE" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f63a32ae-1e05-429c-a609-ed71f74584b3" name="Default Changelist" comment="" />
+      <created>1582964381760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582964381760</updated>
+      <workItem from="1582964390205" duration="18285000" />
+      <workItem from="1583024505295" duration="24425000" />
+      <workItem from="1583061429276" duration="12234000" />
+      <workItem from="1583107806349" duration="27119000" />
+      <workItem from="1583147036757" duration="14273000" />
+      <workItem from="1583195080657" duration="35498000" />
+      <workItem from="1583297119601" duration="174000" />
+      <workItem from="1583334972490" duration="972000" />
+      <workItem from="1583550025981" duration="1714000" />
+      <workItem from="1584238359539" duration="2506000" />
+      <workItem from="1584528932397" duration="8671000" />
+      <workItem from="1584575081400" duration="2186000" />
+      <workItem from="1584578460493" duration="2058000" />
+      <workItem from="1584584060486" duration="12182000" />
+      <workItem from="1584694093529" duration="2836000" />
+      <workItem from="1584755380234" duration="6919000" />
+      <workItem from="1585030460972" duration="7454000" />
+      <workItem from="1585041133012" duration="3575000" />
+      <workItem from="1585047853619" duration="3182000" />
+      <workItem from="1585190777984" duration="1529000" />
+      <workItem from="1585193032750" duration="2830000" />
+      <workItem from="1585208648218" duration="1494000" />
+      <workItem from="1585283874719" duration="32051000" />
+      <workItem from="1585381349207" duration="1888000" />
+      <workItem from="1585647531924" duration="23504000" />
+      <workItem from="1585872226229" duration="7423000" />
+      <workItem from="1586234866729" duration="12164000" />
+      <workItem from="1586915683184" duration="319000" />
+      <workItem from="1587094003285" duration="8329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2226" y="29" key="#Deployment" timestamp="1583028318574">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="233" y="20" key="#Deployment/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583025084586" />
+    <state x="2226" y="29" key="#Deployment/0.0.1280.720/1920.0.1680.1050@1920.0.1680.1050" timestamp="1583028318574" />
+    <state x="2378" y="57" key="#Options" timestamp="1583028573336">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="39" key="#Options/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583025234570" />
+    <state x="2378" y="57" key="#Options/0.0.1280.720/1920.0.1680.1050@1920.0.1680.1050" timestamp="1583028573336" />
+    <state x="96" y="9" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582965067003">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="9" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1582965067003" />
+    <state width="1237" height="73" key="GridCell.Tab.0.bottom" timestamp="1584765624557">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624557" />
+    <state width="1237" height="73" key="GridCell.Tab.0.center" timestamp="1584765624557">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624557" />
+    <state width="1237" height="73" key="GridCell.Tab.0.left" timestamp="1584765624557">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624557" />
+    <state width="1237" height="73" key="GridCell.Tab.0.right" timestamp="1584765624557">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624557" />
+    <state width="1237" height="73" key="GridCell.Tab.1.bottom" timestamp="1584765624558">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624558" />
+    <state width="1237" height="73" key="GridCell.Tab.1.center" timestamp="1584765624558">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.1.center/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624558" />
+    <state width="1237" height="73" key="GridCell.Tab.1.left" timestamp="1584765624557">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.1.left/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624557" />
+    <state width="1237" height="73" key="GridCell.Tab.1.right" timestamp="1584765624558">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="73" key="GridCell.Tab.1.right/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1584765624558" />
+    <state x="142" y="3" key="SettingsEditor" timestamp="1583042842805">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583042842805" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583116182977">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583116182977" />
+    <state x="520" y="92" key="ftp.server.browser" timestamp="1583025065868">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="520" y="92" key="ftp.server.browser/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583025065868" />
+    <state x="282" y="87" width="700" height="530" key="recent.locations.popup" timestamp="1583112155118">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="282" y="87" width="700" height="530" key="recent.locations.popup/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583112155118" />
+    <state x="383" y="3" key="refactoring.ChangeSignatureDialog" timestamp="1583042884637">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="383" y="3" key="refactoring.ChangeSignatureDialog/0.0.1280.720/1920.0.1680.1050@0.0.1280.720" timestamp="1583042884637" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataProcessing$juzheng.coverage" NAME="juzheng Coverage Results" MODIFIED="1582965115368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DataProcessing$SelectTop.coverage" NAME="SelectTop Coverage Results" MODIFIED="1584757785216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataProcessing$juzheng__1_.coverage" NAME="juzheng (1) Coverage Results" MODIFIED="1582967791605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataProcessing$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583054859469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataProcessing$split_row.coverage" NAME="split_row Coverage Results" MODIFIED="1582968604968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataProcessing$match.coverage" NAME="match Coverage Results" MODIFIED="1582974890998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -6,8 +6,8 @@ from check import check
 
 
 #文件路径,file_1表示字典，file_2表示需要修改的矩阵
-file_1 = 'C:\\Users\\hw\\Desktop\\Data20200324\\Data\\dict\\drug2953_dict.txt'
-file_2 = 'C:\\Users\\hw\\Desktop\\Data20200324\\Data\\drug similarity\\Therapeutic_Similarity.txt'
+file_1 = 'H:\\Data\\data422\\data\\dict\\gene_dict.txt'
+file_2 = 'H:\\Data\\data422\\data\\protein similarity\\protein_sequence_similarity.txt'
 
 #提取出词典
 file_1_title = single_column(file_1, 0, removetitle=True)
@@ -26,7 +26,7 @@ num = np.sum(repeat_mat)
 print("非0个数", num)
 
 #输出结果到txt文件
-np.savetxt('C:\\Users\\hw\\Desktop\\Data20200324\\Data\\drugnewsim\\Therapeutic_Similarity.txt', pure_mat, fmt="%f")
+np.savetxt('C:\\Users\\hw\\Desktop\\2\\Sim_prosequence.txt', pure_mat, fmt="%f")
 
 print('end')
 

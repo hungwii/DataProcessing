@@ -17,7 +17,7 @@ def sample(filepath_pos, filepath_neg, seed, proportion=1):
     pos_num = len(pos_name)
     neg_num = pos_num * proportion
 
-    #下面用随机函数进行采样
+    # 下面用随机函数进行采样
     neg_max_sample = []
     neg_ave_sample = []
     neg_name_sample = random.sample(neg_name, neg_num)
@@ -31,4 +31,4 @@ def sample(filepath_pos, filepath_neg, seed, proportion=1):
     temp1.extend(temp2)
     pos_max.extend(neg_max_sample)
     pos_ave.extend(neg_ave_sample)
-    return neg_name_sample, temp1, pos_max
+    return neg_name_sample, temp1, pos_ave

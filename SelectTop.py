@@ -18,8 +18,8 @@ with open(filepath, 'r', encoding='utf-8') as f:
         a = float(content[col])
         content[col] = a
         contents.append(content)
-
-results = []
+print("------------1----------------")
+results, count = [], 0
 for protein in covid19_protein_dic:
     temps = []
     while protein in only_procol:
@@ -31,7 +31,10 @@ for protein in covid19_protein_dic:
     temps.sort(key=lambda x: x[col], reverse=True)
     #保存top的结果
     results.extend(temps[:top])
-
+    count += 1
+    print("the:", count)
+    
+    
 with open(output_path, 'w', encoding='utf-8') as output:
     for result in results:
         rowtext = '{} {} {} {}'.format(result[0], result[1], result[2], result[3])

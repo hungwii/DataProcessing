@@ -5,9 +5,9 @@ from sample import sample
 
 #参数设置
 proportion = 1 #正样本是负样本的多少倍？
-filepath_pos = 'H:\\Data\\eps_new0417\\p-n-data\\positive_data.txt' #正样本文件
-filepath_neg = 'H:\\Data\\eps_new0417\\p-n-data\\negative_data.txt' #负样本文件
-seed = 9039
+filepath_pos = 'C:\\Users\\hw\\Desktop\\test\\pn\\positive_data.txt' #正样本文件
+filepath_neg = 'C:\\Users\\hw\\Desktop\\test\\pn\\negative_data.txt' #负样本文件
+seed = 1710
 
 
 #采样(这里注意不同方法对应不同数量的参数)
@@ -40,7 +40,7 @@ plt.xlabel('Recall') #横坐标标题
 plt.ylabel('Precision')    #纵坐标标题
 # plt.title('PRC Curve')  #图片标题
 plt.legend(loc="lower right")
-plt.savefig('H:\\Data\\eps_new0417\\pr-ave.eps', dpi=1200, format='eps')
+plt.savefig('C:\\Users\\hw\\Desktop\\test\\pn\\pr-max.eps', dpi=1200, format='eps')
 plt.show()
 
 

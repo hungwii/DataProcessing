@@ -1,6 +1,6 @@
 from extract import single_column
 '''这是从数据中挑出大于阈值的'''
-filepath_list = 'C:\\Users\\hw\\Desktop\\test\\list_only_314gene.txt'
+filepath_list = 'C:\\Users\\hw\\Desktop\\test\\list_only_cov.txt'
 file_output = 'C:\\Users\\hw\\Desktop\\test\\list_only_morethan0.txt'
 door_num = 0
 

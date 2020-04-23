@@ -7,7 +7,7 @@ from sample import sample
 proportion = 1  # 正样本是负样本的多少倍？
 filepath_pos = 'C:\\Users\\hw\\Desktop\\test\\pn\\positive_data.txt'  # 正样本文件
 filepath_neg = 'C:\\Users\\hw\\Desktop\\test\\pn\\negative_data.txt'  # 负样本文件
-seed = 1710  # 设置随机种子的大小
+seed = 167  # 设置随机种子的大小
 
 
 # for i in range(10000):
@@ -19,19 +19,19 @@ neg_name, drug_label, max_score = sample(
 fpr, tpr, threshold = roc_curve(drug_label, list(map(float, max_score)))
 roc_auc = auc(fpr, tpr)
 
-    # if roc_auc > 0.65:
-    #     print(seed)
-    #     break
-    # else:
-    #     seed += 1
-    #     print(seed)
+# if roc_auc > 0.66:
+#     print(seed)
+#     break
+# else:
+#     seed += 1
+#     print(seed)
 
-#画ROC图
+# 画ROC图
 plt.figure()
 lw = 2
 plt.figure(figsize=(10, 8))
 plt.plot(fpr, tpr, color='darkorange',
-lw = lw, label = 'AUROC = %0.3f' % roc_auc)
+         lw=lw, label='AUROC = %0.3f' % roc_auc)
 plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
 plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.0])
@@ -39,7 +39,8 @@ plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 # plt.title('Roc Curve')
 plt.legend(loc="lower right")
-plt.savefig('C:\\Users\\hw\\Desktop\\test\\pn\\'+str(roc_auc)+'ave.eps', dpi=1200, format='eps')
+plt.savefig('C:\\Users\\hw\\Desktop\\test\\pn\\' +
+            str(roc_auc)+'max.eps', dpi=1200, format='eps')
 plt.show()
 
 print('此时auc大小为', roc_auc)

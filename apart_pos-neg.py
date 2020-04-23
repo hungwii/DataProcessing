@@ -1,7 +1,7 @@
 from extract import single_column
-'''从某个文档中,根据正样本词典。分隔出正样本和负样本'''
+'''从某个文档中,根据正样本词典。分隔出正样本和负样本,这个忘记当时留着干嘛了，先保留着'''
 filepath_list = 'C:\\Users\\hw\\Desktop\\list_only_covid19.txt'
-filepath_pos =  'C:\\Users\\hw\\Desktop\\positive.txt'
+filepath_pos = 'C:\\Users\\hw\\Desktop\\positive.txt'
 
 line_0 = single_column(filepath_list, 0, removetitle=False)
 line_2 = single_column(filepath_list, 2, removetitle=False)

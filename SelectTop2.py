@@ -1,13 +1,13 @@
 from extract import single_column
 "这个可以根据文件中的某一列数字，选择出TOP,相比于版本1，这里利用了数字出现的顺序，跑起来会更快。但是要注意几个参数"
-top = 100  # 这里是设置想要前几
+top = 20  # 这里是设置想要前几
 col = 2  # 这里是选择第几列数字来排序（由0开始计数）
-genenum = 312  # 词典和文件匹配的蛋白质数目，用于写文件
+genenum = 116  # 词典和文件匹配的蛋白质数目，用于写文件
 drugnum = 2953  # 药物的数量，也就是一个蛋白出现了多少次，用于循环
 # 文件路径,注意，这里的数据不是在data文件夹，而是在result文件夹。因为该文件是之前的函数运行的结果
-filepath = 'C:\\Users\\hw\\Desktop\\test\\list_only_314gene.txt'
-filepath_dic = 'H:\\Data\\data422\\data\\dict\\314gene.txt'  # 新冠蛋白质词典
-output_path = 'C:\\Users\\hw\\Desktop\\test\\top20_list.txt'  # 设置输出结果路径
+filepath = 'C:\\Users\\hw\\Desktop\\test\\list_only_cov.txt'
+filepath_dic = 'H:\\Data\\dict\\Covs-protein_dict127.txt'  # 新冠蛋白质词典
+output_path = 'C:\\Users\\hw\\Desktop\\test\\list_top20.txt'  # 设置输出结果路径
 
 # 下面两行注意列的参数的修改
 covid19_protein_dic = single_column(filepath_dic, 1, removetitle=True)
@@ -24,7 +24,7 @@ with open(filepath, 'r', encoding='utf-8') as f:
         contents.append(content)
 print("------------数据转换为列表阶段结束---------------")
 results = []
-coount = 0
+count = 0
 for i in range(genenum):
     temps = []
     # 每个蛋白（temp）都有2953个

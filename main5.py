@@ -1,16 +1,16 @@
 from extract import single_column
 '''这是从数据中挑出是新冠蛋白的，需要修改的参数就是下面三行文件路径代码'''
 #下面第一行是新冠蛋白词典路径、第二行是数组路径、第三行是输出的文件名（文件会保存在代码所在文件夹）
-filepath_covid19_dic = 'C:\\Users\\hw\\Desktop\\VirusProject\\hw\\data\\Covs-protein_dict127.txt'
+filepath_covid19_dic = 'H:\\Data\\data422\\data\\dict\\314gene.txt'
 filepath_list = 'C:\\Users\\hw\\Desktop\\test\\test_list.txt'
-file_output = 'C:\\Users\\hw\\Desktop\\test\\list_only_covid19.txt'
+file_output = 'C:\\Users\\hw\\Desktop\\test\\list_only_314gene.txt'
 
 
 
 
 
 #载入数据
-covid19_dic = single_column(filepath_covid19_dic, 0, removetitle=True)
+covid19_dic = single_column(filepath_covid19_dic, 1, removetitle=True)
 proteins = single_column(filepath_list, 1, removetitle=False)
 
 print(len(covid19_dic))

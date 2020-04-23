@@ -6,8 +6,8 @@ results = []
 contents = []
 count = 0 #记录最后一共有几个交互信息，方便核对
 #把字典，矩阵数据载入
-filepath_drug_dic = 'C:\\Users\\hw\\Desktop\\Data20200324\\Data\\dict\\drug2953_dict.txt'
-filepath_protein_dic = 'C:\\Users\\hw\\Desktop\\Data20200324\\Data\\dict\\protein5390_dict.txt'
+filepath_drug_dic = 'H:\\Data\\data422\\data\\dict\\drug2953_dict.txt'
+filepath_protein_dic = 'H:\\Data\\data422\\data\\dict\\gene_dict.txt'
 filepath = 'C:\\Users\\hw\\Desktop\\test\\Zscore.txt'
 filepath_interaction = 'C:\\Users\\hw\\Desktop\\test\\interaction.txt'
 

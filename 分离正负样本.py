@@ -18,7 +18,7 @@ long = 342547
 def cal_aver(list):
     total = 0
     for numbers in list:
-        total += float(numbers)
+        total += float(numbers)jia shi
     return total / len(list)
 
 

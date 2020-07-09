@@ -1,13 +1,15 @@
 from sklearn.metrics import precision_recall_curve
 import matplotlib.pyplot as plt
 from sample import sample
+from scipy import integrate
+from sklearn.metrics import auc
 '''调用采样函数进行采样，调用sklearn的函数计算precision,recall,计算auc,然后画图'''
 
 # 参数设置
 proportion = 1  # 正样本是负样本的多少倍？
-filepath_pos = 'C:\\Users\\hw\\Desktop\\test\\pn\\positive_data.txt'  # 正样本文件
-filepath_neg = 'C:\\Users\\hw\\Desktop\\test\\pn\\negative_data.txt'  # 负样本文件
-seed = 8999
+filepath_pos = './vaild_links.txt'  # 正样本文件
+filepath_neg = './all_neg_links.txt'  # 负样本文件,或者是全样本文件
+seed = 100000
 
 
 # 采样(这里注意不同方法对应不同数量的参数)
@@ -17,13 +19,19 @@ neg_name, drug_label, max_score = sample(
 precision, recall, threshold = precision_recall_curve(
     drug_label, list(map(float, max_score)))
 
+
 # 计算AUPRC
-auprc = 0
-long = len(threshold)
-# 微积分的知识计算曲线下面积
-for i in range(0, long-1):
-    auprc += (recall[i]-recall[i+1]) * precision[i]
-print('prc', auprc)
+auprc = auc(recall, precision)
+print(auprc)
+# auprc = integrate.trapz(precision, recall)
+# print('prc', abs(auprc))
+# print('-------------------------')
+# auprc = 0
+# long = len(threshold)
+# # 微积分的知识计算曲线下面积
+# for i in range(0, long-1):
+#     auprc += (recall[i]-recall[i+1]) * precision[i]
+# print('prc', auprc)
 print(precision)
 print("----------------------------")
 print(recall)
@@ -42,7 +50,7 @@ plt.xlabel('Recall')  # 横坐标标题
 plt.ylabel('Precision')  # 纵坐标标题
 # plt.title('PRC Curve')  #图片标题
 plt.legend(loc="lower right")
-plt.savefig('C:\\Users\\hw\\Desktop\\test\\pn\\aupr-max.eps',
+plt.savefig('./aupr'+ str(auprc) + '.eps',
             dpi=1200, format='eps')
 plt.show()
 
